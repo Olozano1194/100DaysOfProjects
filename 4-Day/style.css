@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #afc8e6;
+}
+
+.section-principal {
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 150px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 6px 6px 3px 1px rgba(210, 250, 240, 4.2);
+    padding: 30px;
+    
+}
+
+.section-principal .div-title {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.section-principal .div-title .titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #111314;
+}
+
+.section-principal .div-title .p-views {
+    font-size: 1.6rem;
+    color: #565b5f;
+
+}
+
+.section-principal .section-main {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.section-main .div-cicle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 3px solid #afc8e6; */
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+.section-main .div-cicle::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border-radius: inherit;
+    background: linear-gradient(45deg, #afc8e6, transparent 40%, #afc8e6 60%, transparent 80%, #afc8e6);
+    z-index: -1;
+}
+.section-main .div-cicle .title-two {
+    width: 100%;
+    margin-top: 65px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.section-main .div-porcentajes {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-size: 1.9rem;
+    line-height: 1.5;
+    
+}
+
+.section-main .div-porcentajes .pages,
+.unkown, .search, .external {
+    text-align: end;
+}
+
+.section-main .div-porcentajes span {
+    text-decoration-line: line-through; /*esto sirve para subrayar con una linea en el centro del texto*/
+    text-decoration-thickness: 5px; /*esto sirve para el grosor de la linea anterior*/
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #046cec;
+    margin-right: 5px;    
+}
+
+.section-main .div-porcentajes .span-external{
+    color: #9db9db;
+}
+
+.section-principal a {
+    /* text-decoration: none; */
+    font-size: 1.4rem;
+    color: #046cec;
+    text-align: end;
+    padding-right: 25px;
+}
+
+
+
+

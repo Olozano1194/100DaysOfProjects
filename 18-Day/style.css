@@ -1,0 +1,278 @@
+:root {
+    /*Colores primarios*/
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+    /*Colores neutrales*/
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+/*Utilidades*/
+.bold {
+    color: var(--Dark-Charcoal);
+    font-weight: bold;
+}
+
+.titles {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--Nutmeg);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line {
+    margin-right: 15px;
+}
+
+.p-lines {
+    width: 90%;
+    border-top: 2px solid var(--Light-Grey);
+    color: var(--Light-Grey);
+    
+}
+
+.div-description {
+    width: 90%;
+    line-height: 1.5;
+    color: var(--Wenge-Brown);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+/*Globales*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 1500px;
+    background: var(--Eggshell);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--Dark-Charcoal);
+    margin-top: 70px;
+}
+
+/*Componentes*/
+main {
+    width: 500px;
+    height: auto;
+    border: 3px solid var(--White);
+    background: var(--White);
+    border-radius: 10px;
+       
+}
+
+main .container-img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+main .container-img .img {
+    width: 90%;
+    border-radius: 10px;
+
+}
+
+/*------------------------------container-bottom----------------*/
+
+main .container-bottom {
+    width: 100%;
+    margin-left: 20px;
+    
+}
+
+main .container-bottom .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .container-bottom .description {
+    width: 92%;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--Wenge-Brown);
+
+}
+
+/*-----------------Preparation-------------------*/
+main .container-bottom .preparation {
+    width: 90%;
+    background: var(--Rose-White);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+
+}
+
+main .container-bottom .preparation .preparation-title {
+    font-size: 1.6rem;
+    color: var(--Dark-Raspberry);
+    margin-bottom: 10px;
+}
+
+main .container-bottom .preparation p {
+    color: var(--Wenge-Brown);
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+/*--------------------------Ingredient-----------------------*/
+
+
+/*--------------------Instructions-----------------*/
+main .container-bottom  .instructions ol li {
+    margin-left: 15px;
+    
+}
+
+/*---------------------------------Nutrition---------------------*/
+main .container-bottom .nutrition div {
+    display: flex;
+    gap: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+main .container-bottom .nutrition .kcal {
+    color: var(--Nutmeg);
+}
+
+main .container-bottom .nutrition .grams {
+    margin-left: 14px;
+    color: var(--Nutmeg);
+}
+
+main .container-bottom .nutrition .gramProtein {
+    margin-left: 5px;
+    color: var(--Nutmeg);
+}
+
+main .container-bottom .nutrition .gramFat {
+    margin-left: 27px;
+    color: var(--Nutmeg);
+}
+
+/*-----------------------------------Responsive-------------------*/
+@media (max-width: 750px) {
+
+    .titles {
+        font-size: 3rem;
+        
+    }
+         
+    .div-description {
+        font-size: 2rem;
+        
+    }
+
+    body {
+        width: 100%;
+        height: 1850px;
+        margin-top: 0;
+    }
+
+    main {
+        width: 100%;
+        height: 1850px;
+        border-radius: 0;        
+    }
+
+    main .container-img {
+        width: 100%;
+        margin-top: 0;
+            
+    }
+    
+    main .container-img .img {
+        width: 100%;
+        border-radius: 0;
+    
+    }
+
+    main .container-bottom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        
+        
+    }
+
+    main .container-bottom .title {
+        font-size: 5rem;
+        text-align: center;
+       
+        
+    }
+    
+    main .container-bottom .description {
+        font-size: 2rem;
+        text-align: center;
+    
+    }
+
+    main .container-bottom .preparation .preparation-title {
+        font-size: 2.4rem;
+    }
+    
+    main .container-bottom .preparation p {
+        font-size: 1.8rem;
+        
+    }
+
+    main .container-bottom .nutrition div {
+        justify-content: center;
+        gap: 150px;
+        margin-left: 0;
+    }
+    
+    main .container-bottom .nutrition .grams {
+        margin-right: 42px;
+        
+    }
+    
+    main .container-bottom .nutrition .gramProtein {
+        margin-right: 42px;
+        
+    }
+
+    main .container-bottom .nutrition .gramFat {
+        margin-right: 25px;
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+

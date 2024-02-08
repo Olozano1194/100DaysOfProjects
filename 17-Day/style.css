@@ -1,0 +1,148 @@
+:root {
+    /*Colores primarios*/
+    --Green: hsl(75, 94%, 57%);
+
+    /*Colores neutrales*/
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Off-Black);
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--White);
+    margin-top: 150px;
+    
+}
+
+main {
+    width: 350px;
+    height: auto;
+    border: 3px solid var(--Grey);
+    background: var(--Dark-Grey);
+    border-radius: 10px;
+    
+}
+
+main .container-top {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+main .container-top img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+main .container-top .name {
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 1.8;
+   
+}
+
+main .container-top .nationality {
+    color: var(--Green);
+    font-size: 1.6rem;
+    margin-bottom: 35px;
+}
+
+main .container-top .profession {
+    font-size: 1.6rem;
+        
+}
+
+/*----------------------------------container btn-----------------*/
+
+main .container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+main .container-btn input {
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid var(--Dark-Grey);
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--White);
+    background-color: var(--Grey);
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+main .container-btn input:hover {
+    background: var(--Green);
+    color: var(--Off-Black);
+}
+
+/*------------------------------Responsive--------------------*/
+
+@media (max-width: 750px) {
+
+    body {
+        min-height: 850px;
+        margin-top: 80px;
+    }
+
+    main {
+        width: 550px;
+        height: 720px;
+                
+    }
+
+    main .container-top img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    main .container-top .name {
+        font-size: 3.2rem;
+        
+       
+    }
+    
+    main .container-top .nationality {
+        font-size: 1.8rem;
+        
+    }
+    
+    main .container-top .profession {
+        font-size: 1.8rem;
+            
+    }
+
+    main .container-btn {
+        margin-bottom: 45px;
+    }
+}

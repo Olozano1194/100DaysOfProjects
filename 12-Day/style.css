@@ -1,0 +1,105 @@
+:root {
+    /*Colores primarios*/
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /*Colores neutrales*/
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Dark-cyan);
+}
+
+main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+main .section-principal {
+    width: 100%;
+}
+
+main .section-principal .card {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+main .section-principal .imgVictor {
+    width: 200px;
+    margin-top: -105px;
+    margin-left: 145px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+
+main .section-principal h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .section-principal span {
+    color: var(--Dark-gray);
+}
+
+main .section-principal p {
+    font-size: 2rem;
+    color: var(--Dark-gray);
+    margin-top: 7px;
+    text-align: center;
+}
+
+main .line {
+    font-size: 3rem;
+    color: var(--Dark-gray);
+    text-decoration-line: line-through; /*esto sirve para subrayar con una linea en el centro del texto*/
+    text-decoration-thickness: 3px;
+    margin-bottom: 15px;
+
+}
+
+main .section-redes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+}
+
+main .section-redes .K {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main .section-redes .flp {
+    font-size: 1.5rem;
+    color: var(--Dark-gray);
+}
+
+@media (max-width: 750px) {
+    main {
+        margin-top: 70px;
+    }
+}
+

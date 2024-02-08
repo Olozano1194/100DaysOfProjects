@@ -1,0 +1,164 @@
+:root {
+    /*Colores primarios*/
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /*Colores neutrales*/
+    --Transparent-white/*(paragraphs)*/: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray/*(background, headings, buttons)*/: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--Very-light-gray);
+}
+
+main {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+main .section-description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+}
+
+main .orange {
+    background: var(--Bright-orange);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid var(--Bright-orange);
+       
+}
+
+main .green {
+    background: var(--Dark-cyan);
+    border: 2px solid var(--Dark-cyan);
+}
+
+main .dark-green {
+    background: var(--Very-dark-cyan);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid var(--Very-dark-cyan);
+}
+
+main  .section-description img {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+main .section-description h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--Very-light-gray);
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+main .section-description p {
+    width: 250px;
+    font-size: 1.5rem;
+    color: var(--Very-light-gray);
+    margin-left: 35px;
+    padding-right: 55px;
+    margin-bottom: 65px;
+    
+}
+
+
+/*---------------------btn-----------------------*/
+main .section-description button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+
+}
+
+main .section-description .btn-orange {
+    color: var(--Bright-orange);
+}
+
+main .section-description .btn-orange:hover {
+    border: 2px solid var(--Transparent-white);
+    background: var(--Bright-orange);
+    color: var(--Transparent-white);
+}
+
+main .section-description .btn-green {
+    color: var(--Dark-cyan);
+}
+
+main .section-description .btn-green:hover {
+    background: var(--Dark-cyan);
+    border: 2px solid var(--Transparent-white);
+    color: var(--Transparent-white);
+}
+
+main .section-description .btn-darkGreen {
+    color: var(--Very-dark-cyan);
+}
+main .section-description .btn-darkGreen:hover {
+    border: 2px solid var(--Transparent-white);
+    background: var(--Very-dark-cyan);
+    color: var(--Transparent-white);
+}
+
+/*---------------------------Responsive--------------*/
+
+@media (max-width: 750px) {
+    
+    main {
+        width: 550px;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    main .orange {
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+
+    main .dark-green {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+    }
+
+    main .section-description h2 {
+        font-size: 4.5rem;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    main .section-description p {
+        width: 470px;
+        font-size: 2.5rem;
+    }
+
+    main .section-description button {
+        margin-bottom: 55px;
+    }
+}

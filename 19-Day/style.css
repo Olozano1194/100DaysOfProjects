@@ -1,0 +1,140 @@
+:root {
+    /*Colores*/
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+/*Utilidades*/
+.p-bottom {
+    border-top: 2px solid var(--Light-pink);
+    margin-bottom: 15px;
+}
+
+/*Global*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/background-pattern-desktop.svg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--Light-pink);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--Light-pink);
+    /* margin-top: 300px; */
+}
+
+main {
+    width: 450px;
+    height: auto;
+    border: 3px solid var(--White);
+    background: var(--White);
+    border-radius: 10px;
+    margin-top: 650px;
+        
+}
+
+main .container-top {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+main .container-top .title {
+    font-size: 4.5rem;
+    margin-left: 25px;
+    color: var(--Dark-purple);
+}
+
+/*------------------container-menos----------------------*/
+
+main .container-main {
+    display: flex;
+    font-size: 1.6rem;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+main .container-main div {
+    display: flex;
+    margin-bottom: 25px;    
+}
+
+main .container-main div img {
+    width: 35px;
+    padding-bottom: 25px;
+}
+
+main .container-main div .description {
+    width: 325px;
+    color: var(--Dark-purple);
+    padding-top: 8px;
+}
+
+main .container-main p {
+    color: var(--Grayish-purple);
+    line-height: 1.4;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/*--------------container-bottom----------------------*/
+
+main .container-bottom {
+    color: var(--Dark-purple);
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+main .container-bottom div {
+    display: flex;
+    gap: 15px;
+}
+
+main .container-bottom div p {
+    width: 350px;
+}
+
+main .container-bottom div img {
+    padding-bottom: 5px;
+}
+
+main .container-bottom div p:hover {
+    color: var(--Grayish-purple);
+    cursor: pointer;
+}
+
+/*---------------------Responsive------------------*/
+
+@media (max-width: 750px) {
+
+    main {
+        width: 450px;
+        height: auto;
+        border: 3px solid var(--White);
+        background: var(--White);
+        border-radius: 10px;
+        margin-top: 450px;
+            
+    }
+}
+

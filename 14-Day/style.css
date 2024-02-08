@@ -1,0 +1,190 @@
+:root {
+    /*Colores primarios*/
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /*Colores neutrales*/
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+main .section-header {
+    width: 100%;
+    text-align: center;
+
+}
+
+main .section-header h1 {
+    width: 400px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--Grayish-Blue);
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+main .section-header span {
+    color: var(--Very-Dark-Blue);
+}
+
+main .section-header .description {
+    width: 450px;
+    font-size: 1.6rem;
+    color: var(--Grayish-Blue);
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+/*---------------------------section-div----------------*/
+main .section-div {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    overflow: hidden;
+    
+}
+
+main .section-div .div-builder-karma {
+    width: 100%;
+    border: 2px transparent var(--Very-Light-Gray);
+        
+}
+
+main .section-div .div-builder-karma .container,
+main .section-div .container {
+    width: 100%;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 2px solid var(--Very-Light-Gray);
+    border-top: 3px solid var(--Red);
+    margin-bottom: 25px;
+    overflow: hidden;
+    
+}
+
+main .section-div .div-builder-karma .container h3,
+main .section-div .container h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+main .section-div .div-builder-karma .container p,
+main .section-div .container p {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: var(--Grayish-Blue);
+    /* padding-right: 25px; */
+    margin-bottom: 20px;
+}
+
+main .section-div .div-builder-karma .container img,
+main .section-div .container img {
+    float: right;
+}
+
+main .section-div  .div-builder-karma .container:nth-child(2) {
+    border-top: 3px solid var(--Orange);
+}
+
+main .section-div .calculator, 
+main .section-div .supervisor {
+    height: 250px;
+    margin-top: 150px;
+}
+
+main .section-div .calculator {
+    border-top: 3px solid var(--Blue);
+}
+
+main .section-div .supervisor {
+    border-top: 3px solid var(--Cyan);
+}
+
+/*----------------------Responsive------------------*/
+
+@media (max-width: 750px) {
+
+    main .section-header h1 {
+        width: 600px;
+        font-size: 4rem;
+    }
+    
+    main .section-header .description {
+        width: 550px;
+        font-size: 2.8rem;
+        
+    }
+
+    /*---------section div--------*/
+    main .section-div {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        
+        
+                
+    }
+
+    main .section-div .div-builder-karma .container,
+    main .section-div .supervisor,
+    main .section-div .calculator {
+        height: 280px;
+        margin-top: 50px;
+    }
+
+    main .section-div .div-builder-karma .team-builder,
+    main .section-div .calculator {
+        margin-top: 25px;
+    }
+
+    main .section-div .div-builder-karma .container h3,
+    main .section-div .container h3 {
+        font-size: 3rem;
+        margin-top: 25px;
+        
+    }
+
+    main .section-div .div-builder-karma .container p,
+    main .section-div .container p {
+        font-size: 2.3rem;
+        
+        
+    }
+
+    
+
+}
+
+
+

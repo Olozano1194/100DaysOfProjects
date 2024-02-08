@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #fff;
+}
+
+/*
+### Primarios
+
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradientes
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+### Neutrales
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+
+*/
+
+.section-principal {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    background: #fff;
+    
+}
+
+.section-secundary {
+    width: 50%;
+    height: 100%;
+    background: #4767f5;
+    border-radius: 15px;
+}
+
+.section-secundary .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #bbafaf;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.section-secundary  .div-price {
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: #1a33a0;
+    border-radius: 50%;
+}
+
+.section-secundary .div-price .price-one {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 65px;
+    
+}
+
+.section-secundary .div-price .price-two {
+    font-size: 2rem;
+    color: #eceaea;
+    margin: 0 auto;
+}
+
+.section-secundary .div-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-secundary .div-description .subtitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+.section-secundary .div-description .description {
+    width: 300px;
+    font-size: 1.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    line-height: 1.2;
+    padding: 25px;
+    
+}
+
+
+/*-------------------section 2------------------*/
+.section-description {
+    width: 50%;
+    height: 470px;
+    /* background: #dfdfdf; */
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid  #dfdfdf;
+}
+
+.section-description .title-summary {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.section-description .div-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.9rem;
+    line-height: 1.9;
+    
+}
+
+.section-description .div-description p {
+    width: 320px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 35px;
+    /* font-size: 1.6rem; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* line-height: 1.8;
+    padding-left: 10px;
+    margin-bottom: 15px;*/
+    border-radius: 10px;
+}
+
+.section-description .div-description #porcentaje {
+    width: 90px;
+    margin-top: 37px;
+    margin-left: -100px;
+}
+
+.section-description .div-description #porcentaje-two {
+    width: 90px;
+    margin-top: 25px;
+    margin-left: -100px;
+}
+
+.section-description .div-description #porcentaje-three {
+    width: 90px;
+    margin-top: 25px;
+    margin-left: -100px;
+}
+
+.section-description .div-description #porcentaje-four {
+    width: 90px;
+    margin-top: 25px;
+    margin-left: -100px;
+}
+
+
+.section-description .div-description .reaction {
+    background: #f77575;
+    margin-top: 35px;
+}
+.section-description .div-description .memory {
+    background: #f8ff94;
+}
+.section-description .div-description .verbal {
+    background: #82ffe4;
+}
+.section-description .div-description .visual {
+    background: #9974ff;
+}
+.section-description button {
+    width: 320px;
+    height: 50px;
+    background: #505050;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+
+/*-------------------Responsive----------------------*/
+
+@media (max-width: 750px) {
+
+    .section-principal {
+        flex-direction: column;
+    }
+
+    .section-secundary {
+        width: 100%;
+    }
+
+    .section-description {
+        width: 100%;
+    }
+
+    .section-description .div-description {
+        width: 100%;
+    }
+}

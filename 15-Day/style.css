@@ -1,0 +1,220 @@
+:root {
+    /* Colores primarios */
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Cyan-right: hsl(179, 96%, 32%);
+
+    /* Colores neutrales */
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 150px;
+}
+
+main .container-top {
+    width: 650px;
+    border: 3px solid var(--Light-Gray);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 25px;
+
+
+}
+
+main .container-top .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--Cyan);
+    margin-bottom: 15px;
+}
+
+main .container-top .p-day {
+    font-size: 1.8rem;
+    color: var(--Bright-Yellow);
+    margin-bottom: 10px;
+}
+
+main .container-top .p-description {
+    max-width: 600px;
+    font-size: 1.6rem;
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+    
+}
+
+/*------------------------section bottom---------------*/
+
+/*------------------div-left-----------------*/
+main .container-bottom {
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--Light-Gray);
+   
+}
+
+main .container-bottom .div-left {
+    width: 100%;
+    background: var(--Cyan);
+    border-bottom-left-radius: 10px;
+    padding: 25px;
+}
+
+main .container-bottom .div-left .subTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+main .container-bottom .div-left .p-price {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+main .container-bottom .div-left span {
+    font-size: 1.7rem;
+
+}
+
+main .container-bottom .div-left .p-full {
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+}
+
+main .container-bottom .div-left  .btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: var(--Bright-Yellow);
+    color: var(--Light-Gray);
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+/*--------------------div-right------------*/
+main .container-bottom .div-right{
+    width: 100%;
+    background: var(--Cyan-right);
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+}
+
+main .container-bottom .div-right .subTitle-right {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+main .container-bottom .div-right .p-tutorials {
+    width: 250px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-right: 35px;
+    margin-bottom: 10px;
+}
+
+/*-----------------------Responsive-----------------*/
+
+@media (max-width: 750px) {
+
+    main {
+        margin-top: 70px;
+    }
+
+    main .container-top {
+        width: 500px;
+           
+    }
+
+    main .container-top .title {
+        font-size: 3.5rem;
+    }
+
+    main .container-top .p-day {
+        font-size: 2rem;
+        
+    }
+    
+    main .container-top .p-description {
+        width: 400px;
+        font-size: 1.8rem;
+          
+    }
+
+    main .container-bottom {
+        width: 500px;
+        flex-direction: column;
+       
+    }
+
+    main .container-bottom .div-left {
+        border-bottom-left-radius: 0;
+        
+    }
+
+    main .container-bottom .div-left .subTitle {
+        font-size: 2rem;
+                
+    }
+    
+    main .container-bottom .div-left .p-price {
+        font-size: 3.4rem;
+        
+    }
+
+    main .container-bottom .div-left .p-full {
+        font-size: 2rem;
+       
+    }
+    
+    main .container-bottom .div-left  .btn {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    
+    main .container-bottom .div-right{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    }
+    
+    main .container-bottom .div-right .subTitle-right {
+        font-size: 2.2rem;
+        margin-top: 15px;
+    }
+    
+    main .container-bottom .div-right .p-tutorials {
+        width: 300px;
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+    
+
+}
+
+

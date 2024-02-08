@@ -1,0 +1,159 @@
+:root {
+    /*Colores primarios*/
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /*Colores neutrales*/
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--Desaturated-blue);
+}
+
+main {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    background: var(--Pale-blue);
+    border-radius: 25px;
+    /* border-top-right-radius: 25px;
+    border-top-left-radius: 25px; */
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+main .section-img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+main .section-img img {
+    max-width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+/*--------------section 2-----------------*/
+
+main .section-description {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main .section-description .title {
+    font-size: 3.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+main .section-description .description {
+    width: 400px;
+    color: var(--Desaturated-blue);
+    font-size: 2rem;
+    margin-left: 25px;
+    
+}
+
+/*-----------------------Section price--------------*/
+
+main .section-price {
+    width: 370px;
+    display: flex;
+    gap: 15px;
+    border: 2px solid var(--Desaturated-blue);
+    border-radius: 15px;
+    background: var(--Pale-blue);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+main .section-price .icon-music {
+    width: 35px;
+    margin-left: 15px;
+    border: 1px solid var(--Desaturated-blue);
+    border-radius: 50%;
+}
+
+main .section-price .div-price{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+main .section-price .p-annual {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+main .section-price .p-year {
+    color: var(--Desaturated-blue);
+}
+
+main .section-price .change {
+    margin-top: 15px;
+    margin-left: 125px;
+    font-size: 1.3rem;
+}
+
+main .btn {
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: var(--Bright-blue);
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+main .btn:hover {
+    background: var(--Dark-blue);
+}
+
+main .btn-two {
+    width: 350px;
+    height: 35px;
+    border: none;
+    background: var(--Pale-blue);
+    border-radius: 25px;
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+main .btn-two:hover {
+    background: var(--Very-pale-blue);
+}
+

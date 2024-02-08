@@ -1,0 +1,168 @@
+:root {
+    /* Colores primarios */
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('./img/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+    margin-left: 70px;
+    color: #fff;
+}
+
+header {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+main .container-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/*-------------------Div Img----------------*/
+
+main .container-main .div-img img {
+    width: 600px;
+}
+
+/*-----------------div-right-------------*/
+
+main .container-main .div-right {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-right: 55px;
+}
+
+main .container-main .div-right .title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+main .container-main .div-right .description {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+main .container-main .div-right input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--Violet);
+    border-radius: 10px;
+    background: #fff;
+}
+
+main .container-main .div-right input:hover {
+    background: var(--Soft-Magenta);
+    color: #fff;
+}
+
+/*----------------------footer-------------------*/
+
+footer {
+    width: 92%;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+        
+}
+
+footer a {
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+footer i {
+    width: 100%;
+    font-size: 1.8rem;
+    margin-top: 4px;
+    margin-left: 4px;
+
+}
+
+footer .fa-instagram {
+    margin-left: 5px;
+}
+
+footer .fa-facebook:hover {
+    color: #5d8cf3;
+}
+
+footer .fa-twitter:hover {
+    color: #00acee;
+}
+
+footer .fa-instagram:hover {
+    color: #ebc181;
+}
+
+/*-----------------------------Responsive-------------------------*/
+
+@media (max-width: 750px) {
+
+    header {
+        margin-left: 0;
+        margin-bottom: 55px;
+    }
+    main .container-main {
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    main .container-main .div-right {
+        width: 600px;
+        margin-top: 90px;
+        text-align: center;
+        
+    }
+
+    main .container-main .div-right .title {
+        font-size: 4rem;
+        
+    }
+
+    main .container-main .div-right .description {
+        font-size: 3.2rem;
+        margin-bottom: 50px;
+    }
+    
+    main .container-main .div-right input {
+        width: 250px;
+        height: 35px;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+
+    footer {
+        justify-content: center;
+        margin-top: 45px;
+        margin-bottom: 45px;
+            
+    }
+    
+}
+

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #000;
+}
+
+.div-container--datos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.div-container--datos img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+    border-radius: 50%;
+
+}
+
+.div-container--datos h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.div-container--datos p {
+    color: #f7d76e;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+
+}
+
+.article--Description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article--Description p {
+    max-width: 350px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+.div--redesSociales {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.div--redesSociales .linkedin {
+    color: #0e76a8;
+}
+
+.div--redesSociales .github {
+    color: #b3a6a6;
+}
+
+.div--redesSociales .facebook {
+    color: #3b5998;
+}
