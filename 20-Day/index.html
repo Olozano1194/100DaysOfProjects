@@ -4,40 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/style.css">
 
     <title>Interactive Rating Component</title>
 </head>
 <body>
     <main>
-        <img src="" alt="">
+        <img src="./img/icon-star.svg" alt="Empty Star Icon"/>
 
-        <section>
-            <h1>How did we do?</h1>
-            <p></p>
+        <section class="container-principal">
 
-            <div>
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
-                <p>4</p>
-                <p>5</p>
-            </div>
+            <h1 class="title">How did we do?</h1>
 
-            <div>
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="4">
-                <input type="button" value="5">
+            <p class="description">Please let us know how we did with your support request.
+                All  feedback is appreciated to help us improve our 
+                offering!.
+            </p>
+
+            <div class="container-numbers">
+                <input type="button" value="1" id="one">
+                <input type="button" value="2" id="two">
+                <input type="button" value="3" id="three">
+                <input type="button" value="4" id="four">
+                <input type="button" value="5" id="five">
             </div>
 
         </section>
 
-        <button>Submit</button>
+        <button id="btn">Submit</button>
 
         
     </main>
-    
+
+    <script src="./Js/script.js"></script>
+       
 </body>
 </html>

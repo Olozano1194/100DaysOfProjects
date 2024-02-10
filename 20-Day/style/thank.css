@@ -1,0 +1,131 @@
+:root {
+    /*Colores primarios*/
+    --Orange: hsl(25, 97%, 53%);
+
+    /*Colores neutrales*/
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--Very-Dark-Blue);
+    font-family: fantasy;
+    margin-top: 150px;
+}
+
+main {
+    width: 400px;
+    border: 2px solid var(--Dark-Blue);
+    border-radius: 10px;
+    background-color: var(--Dark-Blue);
+    color: var(--White);
+    
+}
+
+main a {
+    width: 100%;
+    font-size: 3rem;
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--Orange);
+}
+
+main .container-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main img {
+   width: 150px;
+   
+}
+
+main .container-principal {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+main .container-principal .btn {
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Medium-Grey);
+    border-radius: 10px;
+    color: var(--Orange);
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 120px;
+    margin-bottom: 15px;
+    outline: none;
+    
+
+}
+
+main .container-principal .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+main .container-principal .description {
+    width: 350px;
+    color: var(--Light-Grey);
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+/*--------------------Responsive---------*/
+@media (max-width: 375px) {
+    
+    main {
+        width: 350px;
+                
+    }
+
+    main .container-principal .title {
+        font-size: 3rem;
+        
+    }
+
+    main .container-principal .description {
+        width: 300px;
+        line-height: 1.4;
+    
+    }
+
+}
