@@ -1,0 +1,108 @@
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+            
+}
+
+/*----------------------Contenedor-left---------------*/
+main .container-left {
+    width: 60%;
+          
+}
+
+main .container-left .container-img {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 80px; 
+}
+
+/*-----------------------Container-description-----------*/
+
+/* main .container-left .container-description {
+    width: 100%;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+} */
+
+main .container-left .container-description .title {
+    width: 70%;
+    color: var(--Dark-Grayish-Red);
+    font-size: 7rem;
+    margin-bottom: 20px;
+    
+}
+
+main .container-left .container-description span {
+    color: var(--Desaturated-Red);
+    
+}
+
+main .container-left .container-description .description {
+    width: 480px;
+    color: var(--Desaturated-Red);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+}
+
+/*---------------------container input------------------------*/
+main .container-left .container-input {
+    width: 100%;
+    margin-left: 85px;
+    
+}
+
+main .container-left .container-input input {
+    width: 60%;
+    border: 1px solid  var(--Soft-Red);
+    border-radius: 30px;
+    font-size: 1.6rem;
+    color: var(--Desaturated-Red);
+    text-decoration: none;
+    outline: none;
+    padding: 15px;
+    padding-left: 25px;
+    
+}
+
+main .container-left .container-input span {
+    display: inline-block;
+    width: 90px;
+    height: 52.2px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--Soft-Red);
+    border: 2px solid var(--Desaturated-Red);
+    border-radius: 30px;
+    color: #fff;
+    margin-left: -70px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+/*------------------------container-right--------------*/
+
+main .container-right {
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/hero-desktop.jpg');
+    /* background-position: top right; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -730px;
+    margin-left: 700px;
+    order: 1;
+    
+}
+
+
+
+

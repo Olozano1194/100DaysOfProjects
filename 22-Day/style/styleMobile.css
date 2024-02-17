@@ -1,0 +1,142 @@
+:root {
+    /*Colores primarios*/
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+
+    /*Colores neutrales*/
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+
+    /*Colores gradientes*/
+    --Linear: 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+    --Linear2: 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    background: linear-gradient(var(--Linear));
+    
+}
+
+/*-------------------Contenedor de la Imagen superior---------*/
+main .container-img {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    /* order: 2; */
+}
+
+/*--------------------Contenedor de la foto de la mujer 'Container-right'------------*/
+main .container-right {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background-image: url('../img/hero-mobile.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center;
+    /* order: 1; */
+    
+}
+
+/*----------------------Contenedor left 'nombre de clases para pantallas grandes'-----------------*/
+main .container-left {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(var(--Linear2));
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+/*-----------------------Container-description-----------*/
+main .container-left .container-description {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+main .container-left .container-description .title {
+    width: 100%;
+    color: var(--Dark-Grayish-Red);
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+main .container-left .container-description span {
+    color: var(--Desaturated-Red);
+    
+}
+
+main .container-left .container-description .description {
+    width: 100%;
+    color: var(--Desaturated-Red);
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 25px;
+    
+}
+
+/*---------------------container input------------------------*/
+main .container-left .container-input {
+    width: 100%;
+    margin-bottom: 85px;
+    text-align: center;
+    
+}
+
+main .container-left .container-input input {
+    width: 80%;
+    border: 1px solid  var(--Soft-Red);
+    border-radius: 30px;
+    font-size: 1.6rem;
+    color: var(--Desaturated-Red);
+    text-decoration: none;
+    outline: none;
+    padding: 15px;
+    padding-left: 25px;
+    
+}
+
+main .container-left .container-input span {
+    display: inline-block;
+    width: 90px;
+    height: 52.2px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--Soft-Red);
+    border: 2px solid var(--Desaturated-Red);
+    border-radius: 30px;
+    color: #fff;
+    margin-left: -70px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
