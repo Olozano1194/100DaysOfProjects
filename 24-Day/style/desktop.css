@@ -10,15 +10,15 @@ main .container-description .description {
     
 }
 
-main .container-btn {
+main .container-btn, form {
     flex-direction: row;
     margin-bottom: 75px;
     
 }
-main .container-btn input {
+main .container-btn form input {
     width: 360px;
 }
-main .container-btn .input-btn {
+main .container-btn form .input-btn {
     width: 200px;
     margin-bottom: 0px;
 }
@@ -27,4 +27,17 @@ main .container__bottom-img img {
     width: 85%;
     height: 60vh;
     
+}
+
+main footer p {
+    font-size: 2.2rem;
+    
+}
+
+/*------------------Validaciones----------------*/
+.error {
+    margin-top: 12.5rem;
+    margin-right: 250px;
+    margin-bottom: 25px;
+        
 }

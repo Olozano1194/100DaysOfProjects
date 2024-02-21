@@ -70,22 +70,21 @@ main .container-description .description {
 }
 
 /*---------------------------Container input*/
-main .container-btn {
+main .container-btn, form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 23px;
 }
 
-main .container-btn input {
+main .container-btn form input {
     width: 330px;
     height: 45px;
     border-radius: 25px;
     outline: none;
 }
-
-main .container-btn .input-text {
+main .container-btn form .input-text {
     border: 2px solid var(--Pale-Blue);
     color: var(--Gray);
     font-size: 1.8rem;
@@ -93,7 +92,7 @@ main .container-btn .input-text {
 
 }
 
-main .container-btn .input-btn {
+main .container-btn form .input-btn {
     background-color: var(--Blue);
     border: none;
     box-shadow: 0px 10px 0px 0px rgba(116, 179, 230, 0.2);
@@ -147,9 +146,15 @@ main footer .container-redeSociales i {
     border: 2px solid var(--Pale-Blue);
     border-radius: 50%;
     color: var(--Blue);
+    cursor: pointer;
     line-height: 50px;
     padding-left: 12px;
     
+}
+
+main footer .container-redeSociales i:hover {
+    background-color: var(--Blue);
+    color: #fff;
 }
 
 main footer .container-redeSociales .instagram {
@@ -161,3 +166,34 @@ main footer p {
     font-size: 1.8rem;
     margin-bottom: 35px;
 }
+
+/*---------------------------Validaciones---------------*/
+main .container-btn .incorrect {
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px 2px rgb(219, 142, 142);
+    
+}
+.error {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    margin-top: -4.5rem;
+    margin-left: -200px;
+    margin-bottom: 25px;
+    text-align: right;
+    
+}
+
+.error {
+    visibility: visible; 
+    color: #e80c3c;
+}
+/* main .container-btn div .mensajeError {
+    font-size: 1.6rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    
+    
+} */
