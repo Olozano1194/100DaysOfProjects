@@ -1,0 +1,134 @@
+:root {
+    /*Colores Primarios*/
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    /*Colores Neutrales*/
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Light-grayish-blue);
+    font-size: 1.3rem;
+}
+
+main {
+    width: 100%;
+}
+
+/*---------------------------Estilos  Generales de la Pagina----------------------------- */
+main .container-article {
+    width: 90%;
+    padding: 25px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+main .container-article .container-img {
+    width: 100%;
+    color: var(--White);
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    
+}
+main .container-article .container-img img {
+    border: 3px solid var(--White);
+    border-radius: 50%;
+}
+
+main .container-article .container-img .container-name {
+    width: 100%;
+    height: 50px;
+    line-height: 1.5;
+    padding: 10px 10px 10px 0;
+        
+}
+main .container-article .container-img .container-name p {
+    font-size: 1.5rem;
+}
+
+main .container-article .container-img .container-name .verified {
+    color: var(--White);
+    opacity: 50%;
+}
+
+/*--------------------Estilos para los parrafos---------------*/
+main .container-article .p-one {
+    color: var(--White);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 20px;
+
+}
+
+main .container-article .p-two {
+    color: var(--White);
+    font-size: 1.6rem;
+    line-height: 1.4;
+    opacity: 70%;
+}
+
+
+/*-----------------Estilos independientes---------*/
+main .daniel {
+    background-color: var(--Moderate-violet);
+    background-image: url('../img/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    background-position: calc(100% - 30px) top;
+        
+}
+
+main .jonathan {
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+/*-------------articulo jeanette-------*/
+main .jeanette {
+    background-color: var(--White);
+}
+
+main .container-article .container-img .container-name .name {
+    color: var(--Very-dark-grayish-blue);
+}
+main .container-article .p-jeanette {
+    color: var(--Very-dark-blackish-blue);
+    
+}
+
+main .container-article .p-jeanette-two {
+    color: var(--Very-dark-blackish-blue);
+}
+
+/*-----------------Patrick-----------*/
+main .patrick {
+    background: var(--Very-dark-blackish-blue);
+}
+
+main .container-article .container-img .container-name .graduate {
+    color: var(--Light-grayish-blue);
+    
+}
+
+/*-----------------Kira------------*/
+main .kira {
+    background-color: var(--White);
+    margin-bottom: 35px;
+}
