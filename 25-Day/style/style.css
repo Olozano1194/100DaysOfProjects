@@ -27,6 +27,7 @@ body {
 
 main {
     width: 100%;
+    min-width: 375px;
 }
 
 /*---------------------------Estilos  Generales de la Pagina----------------------------- */
