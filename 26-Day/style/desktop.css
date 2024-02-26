@@ -1,0 +1,12 @@
+body {
+    background-color: var(--Very-Dark-Blue);
+    background-image:  url("../img/bg-desktop.png");
+    background-position: center bottom;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+
+}
