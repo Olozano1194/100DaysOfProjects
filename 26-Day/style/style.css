@@ -161,7 +161,6 @@ main .card__tooltip {
     height: 80px;
     background-color: #fff;
     border-radius: 10px;
-    bottom: -35;
     color: var(--Grayish-Blue);
     left: 20%;
     line-height: 80px;
