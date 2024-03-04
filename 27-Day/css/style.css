@@ -1,0 +1,206 @@
+:root {
+    /*Colores Primarios*/
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /*Colores neutrales*/
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --white:  #fff;
+
+}
+
+body {
+    background-image: url('../img/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-color: var(--white);
+    color: var(--Grayish-Blue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+header {
+    width: 100%;
+    min-width: 375px;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-description {
+    width: 100%;
+        
+}
+
+.title{
+    width: 80%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--Dark-Grayish-Blue);
+    margin: 0 auto;
+    margin-top: 55px;
+    
+}
+
+.description {
+    width: 80%;
+    font-size: 1.2rem;
+    color: var(--Grayish-Blue);
+    line-height: 1.4;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container-btn {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-btn input {
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 50px;
+        
+}
+.btn-green {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0px 7px 0px 0px hsla(170, 93%, 83%, 0.24);
+}
+
+.btn-blue {
+    background-color: var(--Light-Blue);
+    box-shadow: 0px 7px 0px 0px hsl(233, 100%, 69%, 0.24);
+    margin-bottom: 150px;
+}
+
+/*------------------main----------*/
+main {
+    width: 100%;
+}
+
+main .container-keep {
+    width: 100%;
+    text-align: center;
+
+}
+
+main .container-keep .keep-title {
+    width: 80%;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    
+}
+
+main .container-keep .keep-description {
+    width: 90%;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+/*---------------main container-div---------------*/
+main  .container-div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main .container-div img {
+    width: 100%;
+}
+
+main .container--div-content {
+    text-align: center;
+}
+
+main .container--div-content .div-title {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 1.7rem;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+main .container--div-content  p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+/*-------------------main devices------------------*/
+main .container-div .img {
+    margin-top: 30px;
+    margin-bottom: 4rem;
+    
+}
+
+main .container-div .container--div-content .access {
+    margin-top: 10rem;
+}
+
+main .container-div .container--div-content img {
+    width: 60px;
+    height: 60px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/*----------------------container-img----------------*/
+main .container--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+} 
+
+main .container--img img {
+    width: 8rem;
+}
+
+/*-----------------------container btn-----------------*/
+main .container-description .main-btn {
+    margin: 0 auto;
+}
+
+/*--------------------footer-----------------------*/
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 12%, 97%);
+    flex-direction: column;
+    line-height: 2;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+footer ul {
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer .container-redesSociales {
+    display: flex;
+    gap: 2.5rem;
+}
