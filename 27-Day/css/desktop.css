@@ -1,0 +1,120 @@
+body {
+    background-image: url('../img/bg-header-desktop.png');
+   }
+   
+   header {
+       height: 70vh;
+       margin-top: 2.5rem;
+       
+   }
+   
+   .title{
+       font-size: 2.5rem;
+           
+   }
+   
+   .description {
+       width: 50%;
+       font-size: 1.4rem;
+       text-align: center;
+       
+   }
+   
+   .container-btn {
+       width: 80%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       gap: 25px;
+       margin-top: 1.5rem;
+   }
+   
+   .container-btn input {
+       width: 25%;
+       font-size: 1.2rem;
+               
+   }
+   
+   main {
+    max-width: 1300px;
+   }
+   main .container-keep .keep-description {
+       width: 50%;
+       font-size: 1.2rem;
+       text-align: center;
+       
+   }
+   
+   main .container-computer {
+       display: flex;
+       gap: 3.5rem;
+       
+   }
+
+   main .container-computer .container__computer-div {
+    padding-right: 3.5rem;
+   }
+   main .container-computer .container__computer-div .container--div-content 
+   .div-title, p {
+    text-align: left;
+        
+   }
+
+   main .container--div-content  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+   }
+
+   main .container-div .img {
+    width: 85%;
+    
+    
+}
+   main .container-div .container--div-content p{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        text-align: center;
+   }
+
+   main .container-div .container-ensure {
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   main .container-div .container-ensure .ensure p {
+    width: 23rem;
+   }
+
+   main .container--img {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    
+}
+
+main .clipboard .title {
+    text-align: center;
+}
+
+main .clipboard p {
+    width: 60%;
+    margin-bottom: 3.5rem;
+}
+
+footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+footer .menu-footer ul{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding-right: 6.5rem;
+}
+
+footer .menu-footer ul li {
+    width: 130px;
+}
+
