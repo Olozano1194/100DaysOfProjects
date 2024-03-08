@@ -1,0 +1,128 @@
+:root {
+    /*Colores primarios*/
+    --pink: hsl(322, 100%, 66%);
+    --white: hsl(350, 100%, 100%);
+
+    /*Colores neutrales*/
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(240, 6%, 97%);
+    font-family:  'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;  
+    
+}
+
+header {
+    width: 100%;
+    background-image: url('../img/bg-hero-mobile.svg');
+    background-color: var(--Very-Pale-Cyan);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header .container-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+header .container-top img {
+    width: 150px;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+header .container-top button {
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--white);
+    box-shadow: 2px 3px 2px 2px var(--Very-Pale-Cyan);
+    color: var(--Very-Dark-Cyan);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-right: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+header .container-build {
+    width: 100%;
+    text-align: center;
+}
+header .container-build .title {
+    width: 80%;
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+header .container-build .description {
+    width: 90%;
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 0 auto;
+}
+
+header .container-build button {
+    width: 18rem;
+    height: 3rem;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+header .container-build img {
+    width: 80%;
+    margin-bottom: 1.5rem;
+}
+main {
+    width: 100%;
+    
+}
+
+main .container--section-main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border: 2px solid var(--white);
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main .container--section-main img {
+    width: 80%;
+    background-color: var(--white);
+    margin-bottom: 1.5rem;
+}
