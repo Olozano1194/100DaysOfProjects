@@ -1,0 +1,175 @@
+
+header {
+    background-image: url('../img/bg-hero-desktop.svg');
+    
+}
+
+header .container-top img {
+    margin-left: 3rem;
+   
+}
+
+header .container-top button {
+    margin-right: 3rem;
+    
+}
+
+header .container-build {
+    max-width: 1300px;
+    display: flex;
+    
+}
+
+header .container-build img {
+    width: 50%;
+}
+
+header .container-build div {
+    margin-top: 5rem;
+}
+
+header .container-build .title {
+    width: 70%;
+    font-size: 2rem;
+    text-align: left;
+    
+}
+
+header .container-build .description {
+    width: 70%;
+    font-size: 1.4rem;
+    text-align: left;
+    
+}
+
+/*----------------main-------------*/
+main .container--section-main {
+    flex-direction: row;
+    
+}
+
+main .container--section-main img {
+    width: 40%;
+    
+}
+
+main .container--section-main .order {
+    margin-right: 2rem;
+    order: 2;
+    
+}
+
+main .container--section-main .Flowing {
+    margin-left: 3rem;
+}
+
+main .container--section-main .div-flowing {
+    margin-left: 6rem;
+}
+
+main .container--section-main .div-flowing p {
+    width: 95%;
+}
+
+main  h3 {
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+main p {
+    width: 80%;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+    text-align: left;
+}
+
+/*---------------container float----------------*/
+.container-absolute {
+    width: 60%;
+    height: 30vh;
+    
+    position: absolute;
+    top: 144rem;
+    left: 17rem;
+    
+}
+
+.container-absolute p {
+    font-size: 1.7rem;
+    
+
+}
+
+/*--------------------footer--------*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .container-bottom .img {
+    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+footer .container-bottom {
+    margin-bottom: 3rem;
+}
+
+footer .container-bottom .container-info {
+    width: 550px;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+        
+}
+
+footer .container-bottom .container-info img {
+    width: 60px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+footer .container-bottom .container-info .icon-email, 
+footer .container-bottom .container-info .icon-phone {
+    width: 20px;
+}
+
+footer .container-bottom .container-info p {
+    line-height: 1.4;
+} 
+
+/*--------------------menu footer------------*/
+footer .menu-footer {
+    margin-top: 16rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+footer .menu-footer  ul {
+    display: grid;
+    font-size: 1.4rem;
+    gap: 1rem;
+    grid-template-columns: 3fr 3fr;
+}
+
+/*--------------------Redes sociales------------------*/
+footer .container-redesSociales .container-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 16rem;
+}
+
+footer .container-redesSociales p {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 11rem;
+    margin-right: 2rem;
+    text-align: center;
+
+}

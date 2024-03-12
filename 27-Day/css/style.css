@@ -206,3 +206,13 @@ footer .container-redesSociales {
     display: flex;
     gap: 2.5rem;
 }
+
+footer ul li:hover {
+    color: var(--Strong-Cyan);
+    cursor: pointer;
+}
+
+footer .container-redesSociales img:hover {
+    color: filter(var(--Strong-Cyan));
+    cursor: pointer;
+}
