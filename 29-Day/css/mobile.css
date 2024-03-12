@@ -1,0 +1,151 @@
+:root {
+    /*Colores Primarios*/
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+
+    /*Accent*/
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+
+    /*Neutral*/
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100% ;
+    color: var(--Very-Dark-Blue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+header img {
+    width: 100px;
+    margin-right: 3rem;
+}
+
+header nav {
+    display: flex;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a {
+    color: var(--Very-Dark-Blue);
+    text-decoration: none;
+    
+}
+
+/*-------------------------Main--------------- */
+
+main {
+    width: 100%;
+}
+
+main .img-illustration-1 {
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+}
+
+
+main .container-illustration-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .container-illustration-1 .div-description {
+    width: 100%;
+}
+
+main .container-illustration-1 .div-description .title {
+    width: 80%;
+    font-size: 2rem;
+    color: var(--Very-Dark-Blue);
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+main .container-illustration-1 .div-description .description {
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+main .container-btn {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .container-btn input {
+    height: 45px;
+    border: none;
+    border: 2px solid var(--Very-Dark-Blue);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+
+main .container-btn input[type="text"] {
+    color: var(--Light-Gray);
+    padding-left: 3rem;
+}
+
+main .container-btn input[type="button"] {
+    background-color: var(--Bright-Blue);
+    border: none;
+    box-shadow: 3px 3px 3px 3px var(--Light-Grayish-Blue);
+    color: var(--Light-Grayish-Blue);
+    margin-bottom: 5rem;
+}
+
+/*-----------------------illustration 2--------------------*/
+main .container-illustration-2{
+    width: 100% ;
+    background-image: url('../img/bg-curve-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: var(--Light-Grayish-Blue);
+    
+}
+
+main .container-illustration-2 img {
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
