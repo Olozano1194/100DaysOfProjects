@@ -69,6 +69,7 @@ header .container-build {
     width: 100%;
     text-align: center;
 }
+
 header .container-build .title {
     width: 80%;
     color: var(--Very-Dark-Cyan);
@@ -94,6 +95,7 @@ header .container-build button {
     border: none;
     border-radius: 20px;
     color: var(--white);
+    cursor: pointer;
     font-size: 1.2rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -103,8 +105,10 @@ header .container-build img {
     width: 80%;
     margin-bottom: 1.5rem;
 }
+
 main {
     width: 100%;
+    margin-bottom: 13rem;
     
 }
 
@@ -115,6 +119,7 @@ main .container--section-main {
     align-items: center;
     background-color: var(--white);
     border: 2px solid var(--white);
+    border-radius: 10px;
     flex-direction: column;
     margin: 0 auto;
     margin-top: 2rem;
@@ -124,5 +129,168 @@ main .container--section-main {
 main .container--section-main img {
     width: 80%;
     background-color: var(--white);
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
+}
+
+main  h3 {
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+main p {
+    color: var(--Grayish-Blue);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+/*---------------container float----------------*/
+.container-absolute {
+    width: 90%;
+    height: 35vh;
+    background-color: var(--white);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    position: absolute;
+    top: 150rem;
+    left: 1.1rem;
+    
+}
+
+.container-absolute p {
+    width: 100%;
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    text-align: center;
+
+}
+
+.container-absolute button {
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--pink);
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/*--------------------footer--------*/
+
+footer {
+    background-color: var(--Very-Dark-Cyan);
+    color: var(--white);
+    
+}
+
+footer .container-bottom .img {
+    color: var(--white);
+    margin-top: 10rem;
+}
+
+footer .container-bottom .container-info {
+    display: flex;
+    font-size: 1.3rem;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-right: 1rem;
+}
+
+footer .container-bottom .container-info img {
+    width: 60px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+footer .container-bottom .container-info .icon-email, 
+footer .container-bottom .container-info .icon-phone {
+    width: 20px;
+}
+
+footer .container-bottom .container-info p {
+    line-height: 1.4;
+} 
+
+/*--------------------menu footer------------*/
+footer .menu-footer {
+    line-height: 2;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+footer li {
+    list-style: none;
+}
+footer .menu-footer a{
+    color: var(--white);
+    text-decoration: none;
+    
+    
+}
+
+/*--------------------Redes sociales------------------*/
+footer .container-redesSociales .container-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+footer .container-redesSociales .container-div li {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    
+}
+
+footer .container-redesSociales .container-div li i {
+    line-height: 50px;
+    margin-left: .7rem;
+}
+
+footer .container-redesSociales .container-div li .facebook {
+    margin-left: .9rem;
+}
+
+footer .container-redesSociales p {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+/*-----------Hover-------------------*/
+header .container-build button:hover,
+button:hover {
+    background-color: hsl(322, 80%, 86%);;
+}
+
+footer .menu-footer  a:hover {
+    text-decoration-line: underline;
+}
+
+footer .container-redesSociales i:hover {
+    color: var(--pink);
+    cursor: pointer;
 }
