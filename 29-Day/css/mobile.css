@@ -368,3 +368,18 @@ footer .container__footer-redesSociales li {
     font-size: 1.5rem;
 }
 
+/*---------------------Hover-------------------*/
+.container-btn input[type="button"]:hover {
+    cursor: pointer;
+}
+
+main .container-illustration-2  .container__div-bottom .works:hover {
+    cursor: pointer;
+}
+
+footer .container__footer-redesSociales li:hover {
+   cursor: pointer;
+}
+
+
+
