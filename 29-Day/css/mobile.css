@@ -46,8 +46,10 @@ header img {
 
 header nav {
     display: flex;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
     gap: 2rem;
+    padding-right: 2rem;
 }
 
 header nav li {
@@ -90,6 +92,7 @@ main .container-illustration-1 .div-description {
 main .container-illustration-1 .div-description .title {
     width: 80%;
     font-size: 2rem;
+    font-weight: 700;
     color: var(--Very-Dark-Blue);
     margin: 0 auto;
     margin-top: 2rem;
@@ -139,13 +142,229 @@ main .container-illustration-2{
     background-image: url('../img/bg-curve-mobile.svg');
     background-repeat: no-repeat;
     background-color: var(--Light-Grayish-Blue);
-    
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    padding-bottom: 6rem;
+        
 }
 
-main .container-illustration-2 img {
+main .container-illustration-2 .img-illustration-2 {
     width: 90%;
     max-width: 1300px;
     display: flex;
     margin: 0 auto;
     padding-top: 5rem;
 }
+
+main .container-illustration-2 .container__div-top {
+    width: 100%;
+}
+
+main .container-illustration-2 .container__div-top .title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+main .container-illustration-2 .container__div-top .description {
+    width: 90%;
+    color: var(--Desaturated-Blue);
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+main .container-illustration-2  .container__div-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding-bottom: 4rem;
+    
+}
+
+main .container-illustration-2  .container__div-bottom .works {
+    color: var(--Moderate-Cyan);
+    font-size: 1.4rem;
+       
+}
+
+main .container-illustration-2 .container__div-bottom .icon-arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+main .container-illustration-2 .line {
+    width: 42%;
+    display: flex;
+    border-bottom: 2px solid var(--Moderate-Cyan);
+    color: var(--Moderate-Cyan);
+        
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    top: 126.5rem;
+    
+}
+
+/*------------------------Container Quotes-------------*/
+main .container-illustration-2 .container__quotes {
+    width: 80%;
+    background-color: #fff;
+    border: 2px solid hsl(240, 14%, 95%);
+    border-radius: 10px;
+    margin:  0 auto;
+    padding: 2rem;
+    
+}
+
+main .container-illustration-2 .container__quotes p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial span {
+    display: flex;
+    line-height: 1.8;
+       
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial .Kyle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial span{
+    font-size: 1.1rem;
+       
+}
+
+/*--------------main bottom-------------*/
+main .container__main-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Desaturated-Blue);
+    color: var(--Light-Grayish-Blue);
+    padding: 2.5rem;
+}
+
+main .container__main-bottom .title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top:  2rem;
+    margin-bottom: 2rem;
+}
+
+main .container__main-bottom p {
+    width: 80%;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+main .container__main-bottom .inputs .input-text {
+    border: none;
+}
+main .container__main-bottom .inputs .input-btn {
+    box-shadow: none;
+}
+
+/*----------------------Footer--------------------*/
+footer {
+    width: 100%;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--Light-Grayish-Blue);
+    padding: 3rem;
+}
+
+footer .fylo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*---------------------------Contant---------------*/
+footer .container__footer-contacts {
+    width: 100%;
+
+}
+
+footer .container__footer-contacts div {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*---------------menu one------------------------*/
+footer nav {
+    width: 100%;
+    line-height: 1.8;
+    margin-top: 3.5rem;
+
+}
+
+footer li {
+    list-style: none;
+}
+
+footer nav a {
+    color: var(--Light-Grayish-Blue);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer .nav-two {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+footer .container__footer-redesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer .container__footer-redesSociales li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--Light-Grayish-Blue);
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
