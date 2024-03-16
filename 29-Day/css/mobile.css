@@ -117,7 +117,7 @@ main .container-btn {
 
 main .container-btn input {
     height: 45px;
-    border: none;
+    /* border: none; */
     border: 2px solid var(--Very-Dark-Blue);
     border-radius: .5rem;
     font-size: 1.6rem;
@@ -275,14 +275,22 @@ main .container__main-bottom {
     padding: 2.5rem;
 }
 
-main .container__main-bottom .title {
+main .container__main-bottom .container__div-Description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+main .container__main-bottom .container__div-Description .title {
     font-size: 1.6rem;
     font-weight: 700;
     margin-top:  2rem;
     margin-bottom: 2rem;
 }
 
-main .container__main-bottom p {
+main .container__main-bottom .container__div-Description p {
     width: 80%;
     font-size: 1.4rem;
     line-height: 1.4;
@@ -350,6 +358,7 @@ footer .nav-two {
     margin-bottom: 2rem;
 }
 
+/*---------------------Redes Sociales---------------*/
 footer .container__footer-redesSociales {
     display: flex;
     justify-content: center;
@@ -380,6 +389,3 @@ main .container-illustration-2  .container__div-bottom .works:hover {
 footer .container__footer-redesSociales li:hover {
    cursor: pointer;
 }
-
-
-
