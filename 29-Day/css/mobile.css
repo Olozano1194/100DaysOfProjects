@@ -41,6 +41,7 @@ header {
 
 header img {
     width: 100px;
+    margin-left: 1rem;
     margin-right: 3rem;
 }
 
@@ -128,7 +129,7 @@ main .container-btn input[type="text"] {
     padding-left: 3rem;
 }
 
-main .container-btn input[type="button"] {
+main .container-btn input[type="submit"] {
     background-color: var(--Bright-Blue);
     border: none;
     box-shadow: 3px 3px 3px 3px var(--Light-Grayish-Blue);
@@ -212,7 +213,7 @@ main .container-illustration-2 .line {
     right: 0;
     bottom: 0;
     margin: auto;
-    top: 126.5rem;
+    top: 127.9rem;
     
 }
 
@@ -378,7 +379,7 @@ footer .container__footer-redesSociales li {
 }
 
 /*---------------------Hover-------------------*/
-.container-btn input[type="button"]:hover {
+.container-btn input[type="submit"]:hover {
     cursor: pointer;
 }
 
@@ -388,4 +389,26 @@ main .container-illustration-2  .container__div-bottom .works:hover {
 
 footer .container__footer-redesSociales li:hover {
    cursor: pointer;
+}
+
+/*---------------------------Validaciones---------------*/
+main .container-btn .incorrect {
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px 2px rgb(219, 142, 142);
+    
+}
+.error {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 5.5rem;
+    margin-bottom: 25px;
+    text-align: right;
+    
+}
+
+.error {
+    visibility: visible; 
+    color: #e80c3c;
 }
