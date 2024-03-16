@@ -40,10 +40,11 @@
                     </p>
                 </div>
             
-                <div class="container-btn">
-                    <input type="text"  placeholder="Enter your email...."/>
-                    <input type="button" value="Get Started"/>
-                </div>
+                <form class="container-btn">
+                    <input type="text"  placeholder="Enter your email...." id="email"/>
+                    <span class="mensajeError"></span>
+                    <input type="submit" value="Get Started" id="btn"/>
+                </form>
             </section>
         </section>
         
@@ -102,7 +103,7 @@
             
             <div class="container-btn inputs">
                 <input type="text" placeholder="email@example.com" class="input-text">
-                <input type="button" value="Get Started For Free" class="input-btn">
+                <input type="submit" value="Get Started For Free" class="input-btn">
             </div>
         </section>
     </main>
@@ -147,5 +148,7 @@
         </section>
         
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
