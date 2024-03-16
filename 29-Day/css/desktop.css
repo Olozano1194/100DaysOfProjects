@@ -1,0 +1,198 @@
+body {
+    max-width: 1300px;
+}
+
+header {
+    max-width: 1300px;
+        
+}
+
+header img {
+    width: 150px;
+    margin-left: -10rem;
+    
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: end;
+    margin-left: 5rem;
+}
+
+main .container__main-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container__main-top .img-illustration-1 {
+    width: 52%;
+    order: 1;
+}
+
+main .container-illustration-1 .div-description .title {
+    width: 85% ;
+    font-size: 3.5rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+main .container-illustration-1 .div-description .description {
+    width: 85%;
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+main .container-btn {
+    width: 85%;
+    flex-direction: row;
+}
+
+main .container-btn input[type="text"] {
+    width: 250px;
+}
+
+main .container-btn input[type="button"] {
+    width: 150px;
+    margin-bottom: 0;
+}
+
+/*-----------------------illustration 2--------------------*/
+main .container-illustration-2{
+    display: flex;
+    background-image: url('../img/bg-curve-desktop.svg');
+           
+}
+
+main .container-illustration-2 .img-illustration-2 {
+    width: 50%;
+    order: 1;
+    padding-right: 3rem;
+    
+}
+
+main .container-illustration-2 .container__div-top .title {
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-left: 6.5rem;
+    text-align: left;
+}
+
+main .container-illustration-2 .container__div-top .description {
+    width: 80%;
+    font-size: 1.7rem;
+    margin-left: 6.5rem;
+}
+
+main .container-illustration-2  .container__div-bottom {
+    justify-content: left;
+    align-items: center;
+    margin-left: 6.5rem;
+    
+}
+
+main .container-illustration-2  .container__div-bottom .works {
+    font-size: 1.7rem;
+       
+}
+
+main .container-illustration-2 .container__div .line {
+    width: 13%;
+            
+    top: 85rem;
+    right: 100rem;
+    
+}
+
+/*------------------------Container Quotes-------------*/
+main .container-illustration-2 .container__quotes {
+    width: 70%;
+    margin-left: 6.7rem;
+    padding: 2.5rem;
+    
+}
+
+main .container-illustration-2 .container__quotes p {
+    font-size: 1.7rem;
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial .Kyle {
+    font-size: 1.6rem;
+        
+}
+
+main .container-illustration-2 .container__quotes .container__div-testimonial span{
+    font-size: 1.3rem;
+       
+}
+
+/*--------------main bottom-------------*/
+main .container__main-bottom {
+    flex-direction: row;
+}
+
+main .container__main-bottom .container__div-Description .title {
+    width: 80%;
+    font-size: 2rem;
+    text-align: left;
+}
+
+main .container__main-bottom .container__div-Description p {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+main .container__main-bottom .inputs {
+    flex-direction: column;
+    margin-left: 11rem;
+}
+
+main .container__main-bottom .inputs .input-text {
+    width: 75%;
+}
+main .container__main-bottom .inputs .input-btn {
+    width: 35%;
+}
+
+/*----------------------Footer--------------------*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+}
+
+footer .container__footer-fylo {
+    width: 100% ;
+    margin-left: 2rem;
+}
+
+footer .container__footer-contacts div {
+    font-size: 1.8rem;
+}
+
+/*---------------menu one------------------------*/
+footer .container__footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+footer nav a {
+    font-size: 1.8rem;
+}
+
+
+/*---------------------Redes Sociales---------------*/
+footer .container__footer-redesSociales {
+    width: 100%;
+}
+
+footer .container__footer-redesSociales li {
+    width: 40px;
+    height: 40px;
+    font-size: 1.7rem;
+}
