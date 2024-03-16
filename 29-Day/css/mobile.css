@@ -134,6 +134,7 @@ main .container-btn input[type="submit"] {
     border: none;
     box-shadow: 3px 3px 3px 3px var(--Light-Grayish-Blue);
     color: var(--Light-Grayish-Blue);
+    margin-top: 1rem;
     margin-bottom: 5rem;
 }
 
