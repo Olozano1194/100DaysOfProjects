@@ -53,9 +53,10 @@ main .container-btn input[type="text"] {
     width: 250px;
 }
 
-main .container-btn input[type="button"] {
+main .container-btn input[type="submit"] {
     width: 150px;
     margin-bottom: 0;
+    
 }
 
 /*-----------------------illustration 2--------------------*/
@@ -159,12 +160,12 @@ main .container__main-bottom .inputs .input-btn {
 footer {
     display: flex;
     justify-content: space-evenly;
-    /* gap: 2rem; */
+    
 }
 
 footer .container__footer-fylo {
     width: 100% ;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 footer .container__footer-contacts div {
