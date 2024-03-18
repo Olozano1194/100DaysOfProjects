@@ -152,3 +152,14 @@ footer button {
     font-size: 2rem;
     font-weight: 500;
 }
+
+/*------------------------Hover---------------*/
+main form label input[type=submit]:hover,
+footer button:hover {
+    background-color: var(--Tomato);
+    cursor: pointer;
+}
+
+main form label input[type=text]:hover {
+    cursor: pointer;
+}
