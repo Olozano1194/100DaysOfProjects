@@ -110,61 +110,11 @@ main form label input[type=submit] {
     color: var(--White);
     font-size: 1.7rem;
     font-weight: 500;
-    
-}
-
-main .container-bottom {
-    width: 80%;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-main  .container-bottom img {
-    margin-bottom: 2rem;
-
-}
-
-main .container-bottom h2 {
-    color: var(--Charcoal-Grey);
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-}
-
-main .container-bottom  p {
-    color: var(--Dark-Slate-Grey);
-    font-size: 1.7rem;
-    line-height: 1.4;
-}
-
-main .container-bottom span {
-    color: var(--Dark-Slate-Grey);
-    font-weight: 700;
-}
-
-/*--------------------footer----------------------*/
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-footer button {
-    width: 80%;
-    height: 50px;
-    background-color: var(--Dark-Slate-Grey);
-    border: none;
-    border-radius: .7rem;
-    color: var(--White);
-    font-size: 2rem;
-    font-weight: 500;
+    margin-bottom: 4rem;
 }
 
 /*------------------------Hover---------------*/
-main form label input[type=submit]:hover,
-footer button:hover {
+main form label input[type=submit]:hover {
     background-color: var(--Tomato);
     cursor: pointer;
 }
