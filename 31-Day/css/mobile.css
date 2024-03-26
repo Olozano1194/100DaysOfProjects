@@ -99,10 +99,11 @@ main form label input {
 
 }
 
-main form label input[type=text]{
+main form label input[type=email]{
     font-size: 1.7rem;
     margin-top: 1.2rem;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
+    
 }
 
 main form label input[type=submit] {
@@ -110,6 +111,7 @@ main form label input[type=submit] {
     color: var(--White);
     font-size: 1.7rem;
     font-weight: 500;
+    margin-top: 1rem;
     margin-bottom: 4rem;
 }
 
@@ -121,4 +123,28 @@ main form label input[type=submit]:hover {
 
 main form label input[type=text]:hover {
     cursor: pointer;
+}
+
+/*---------------------------Validaciones---------------*/
+main form .incorrect {
+    background-color: rgb(248, 238, 238);
+    border: 2px solid red;
+    box-shadow: 2px 2px 2px 2px rgb(219, 142, 142);
+    color: var(--Tomato);
+    
+}
+.error {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    margin-left: 17rem;
+    margin-bottom: 2.5rem;
+    text-align: right;
+    
+}
+
+.error {
+    visibility: visible; 
+    color: #e80c3c;
 }
