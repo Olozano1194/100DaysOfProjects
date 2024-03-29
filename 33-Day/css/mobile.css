@@ -1,0 +1,161 @@
+:root {
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: var(--Off-white);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+main img {
+    width: 90%;
+}
+
+/*-----------------------container-top-----------------*/
+main .container-top {
+    width: 100%;
+    min-width: 375px;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+    
+}
+
+main .container-top h1 {
+    width: 70%;
+    color: var(--Very-dark-blue);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+main .container-top p {
+    width: 90%;
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 2rem;
+}
+
+main .container-top button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--Soft-red);
+    border: none;
+    color: var(--Off-white);
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+
+/*-------------------container-new---------------------*/
+main .container-new {
+    width: 90%;
+    background-color: var(--Very-dark-blue);
+    color: var(--Off-white);
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+main .container-new h2 {
+    color: var(--Soft-orange);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+main .container-new .p-principal {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+main .container-new .p-secundary {
+    width: 90%;
+    color: var(--Grayish-blue);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+main  .container-new .line {
+    width: 90%;
+    border-top: 1px solid var(--Dark-grayish-blue);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*---------------------------container-bottom-------------------*/
+main .container-bottom {
+    width: 90%;
+    background-color: var(--Off-white);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+main .container-bottom .container__div {
+    display: flex;
+    color: var(--Dark-grayish-blue);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+main .container-bottom .container__div .container__div-img img {
+    width: 120px;
+    height: 140px;
+}
+
+main .container-bottom .container__div .container__div-bottom {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+main .container-bottom .container__div .container__div-bottom span {
+    width: 90%;
+}
+
+main .container-bottom .container__div .container__div-bottom .span-number {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+main .container-bottom .container__div .container__div-bottom .span--black {
+    color: var(--Very-dark-blue);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
