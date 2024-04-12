@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font Awesome-->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' rel='stylesheet'>
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 840px)"/>
+    
+    <title>Interactive Card Details Form</title>
+</head>
+<body>
+    <main>
+        <section class="container__section-top">
+            <div class="container__div-img">
+                <img src="./img/bg-card-back.png" alt="img-card">
+            </div>
+
+        </section>
+
+        <div class="container__div-float">
+            <!-- <img src="./img/bg-card-front.png" alt="img-card-front"> -->
+            <span class="cero">0000 0000 0000 0000</span>
+
+            <div class="container__div-description">
+                <span class="name">Jane Appleseed</span>
+                <span class="date">00/00 0000</span>
+            </div>
+            
+            
+        </div>
+
+        <form action="#">
+            <label for="name">Cardholder Name
+                <input type="text" id="name" placeholder="e.g. JAne Appleseed">
+            </label>
+
+            <label for="number">Card Number
+                <input type="text" id="number" placeholder="e.g. 1234 5678 9123 0000">
+            </label>
+                
+            <label for="date">EXP. DATE (MM/YY) CVC
+                <input type="date">
+            </label>
+
+            <input type="submit" value="Confirm" class="btn">
+        </form>
+        
+    
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+:root {
+    --Linear-gradient: linear-gradient(hsl(249, 99%, 64%) to hsl(278, 94%, 30%)); /*(active input border) */
+    --Red: hsl(0, 100%, 66%); /*(input errors) */
+    --White: hsl(0, 0%, 100%);
+    --Light-grayish-violet: hsl(270, 3%, 87%);
+    --Dark-grayish-violet: hsl(279, 6%, 55%);
+    --Very-dark-violet: hsl(278, 68%, 11%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-width: 375px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------main top-------------*/
+main .container__section-top {
+    width: 100%;
+    display: flex;
+    background-image: url('../img/bg-main-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container__section-top .container__div-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 3rem;
+}
+
+main .container__section-top .container__div-img img {
+    width: 80%;
+}
+
+/*------------------------main float----------------*/
+main .container__div-float {
+    width: 75%;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/bg-card-front.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-left: 2rem;
+
+    position: absolute;
+    top: 13.5rem;
+}
+
+main .container__div-float .cero {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--White);
+    margin-top: 2rem;
+}
+
+main .container__div-float .container__div-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+}
+main .container__div-float .name, .date {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--White);
+    text-align: left;
+}
+
+/*--------------------------------form---------------------*/
+main form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+main form label {
+    width: 87%;
+    display: flex;
+    color: var(--Very-dark-violet);
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 1rem;
+    
+}
+
+main form label input {
+    border: 2px solid var(--Light-grayish-violet);
+    border-radius: 1rem;
+    color: var(--Dark-grayish-violet);
+    outline: none;
+    padding-top: 1.6rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.6rem;
+}
+
+/*-----------------------------btn-------------------*/
+main form .btn {
+    width: 87%;
+    height: 5rem;
+    background-image: url('../img/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    border: none;
+    color: var(--White);
+    font-size: 2.5rem;        
+}
