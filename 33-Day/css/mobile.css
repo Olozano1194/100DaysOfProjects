@@ -43,12 +43,23 @@ main {
     
 }
 
-main img {
+main .container__section-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+main .container__section-top .container__section-img {
     width: 90%;
+    height: 30vh;
+    background-image: url('../img/image-web-3-mobile.jpg');
 }
 
 /*-----------------------container-top-----------------*/
-main .container-top {
+main .container__description-top {
     width: 100%;
     min-width: 375px;
     padding-left: 2rem;
@@ -56,20 +67,20 @@ main .container-top {
     
 }
 
-main .container-top h1 {
+main .container__description-top h1 {
     width: 70%;
     color: var(--Very-dark-blue);
     font-size: 3rem;
     font-weight: 700;
 }
 
-main .container-top p {
+main .container__description-top p {
     width: 90%;
     color: var(--Dark-grayish-blue);
     margin-bottom: 2rem;
 }
 
-main .container-top button {
+main .container__description-top button {
     width: 200px;
     height: 40px;
     background-color: var(--Soft-red);
