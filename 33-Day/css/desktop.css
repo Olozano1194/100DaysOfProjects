@@ -1,0 +1,141 @@
+:root {
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+header {
+    max-width: 1300px;
+    margin-top: 5rem;
+    
+}
+
+main {
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 450px;
+    grid-template-rows: 360px 400px 300px;
+    gap: 3rem;
+        
+}
+
+main .container__section-top {
+    width: 100%;
+    padding-top: 23.5rem;
+    padding-left: 2rem;
+    
+}
+
+main .container__section-top .container__section-img {
+    width: 100%;
+    height: 30vh;
+    background-image: url('../img/image-web-3-desktop.jpg');
+}
+
+/*-----------------------container-top-----------------*/
+main .container__description-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0rem;
+    
+       
+}
+
+main .container__description-top h1 {
+    width: 50%;
+    font-size: 6.5rem;
+    margin-top:  1rem;
+   
+}
+
+main .container__description-top .container__div-description {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+main .container__description-top .container__div-description p {
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+main .container__description-top button {
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+/*-------------------container-new---------------------*/
+main .container-new {
+    height: 59vh;
+    margin-top: 20.5rem;
+}
+
+main .container-new h2 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+main .container-new .p-principal {
+    font-size: 2.5rem;
+    margin-bottom: 1.3rem;
+}
+
+main .container-new .p-secundary {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+main  .container-new .line {
+    margin-top: 3rem;
+    
+}
+
+
+/*---------------------------container-bottom-------------------*/
+main .container-bottom {
+    display: flex;
+    grid-column: 1/3;
+    margin-top: 30rem;
+    padding-left: 2rem;
+}
+
+main .container-bottom .container__div .container__div-bottom {
+    width: 250px;
+}
+
+main .container-bottom .container__div .container__div-bottom span {
+    font-size: 1.7rem;
+}
+
+
+main .container-bottom .container__div .container__div-bottom .span-number {
+    font-size: 4rem;
+    
+}
+
+main .container-bottom .container__div .container__div-bottom .span--black {
+    font-size: 2rem;
+        
+}
+
+main .container-bottom .desktop {
+    margin-left: 5rem;
+}
