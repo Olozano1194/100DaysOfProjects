@@ -1,0 +1,56 @@
+:root {
+    --Linear-gradient: linear-gradient(hsl(249, 99%, 64%) to hsl(278, 94%, 30%)); /*(active input border) */
+    --Red: hsl(0, 100%, 66%); /*(input errors) */
+    --White: hsl(0, 0%, 100%);
+    --Light-grayish-violet: hsl(270, 3%, 87%);
+    --Dark-grayish-violet: hsl(279, 6%, 55%);
+    --Very-dark-violet: hsl(278, 68%, 11%);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main .container__section-thank {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9rem;
+}
+
+main .container__section-thank .title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--Very-dark-violet);
+    text-align: center;
+
+}
+
+main .container__section-thank .description {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--Dark-grayish-violet);
+    margin-bottom: 4rem;
+}
+
+main .container__section-right .container__div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .container__section-right .container__div-btn .btn {
+    width: 87%;
+    height: 5rem;
+    background-image: url('/34-Day/img/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    border: none;
+    color: var(--White);
+    font-size: 2.5rem;        
+}

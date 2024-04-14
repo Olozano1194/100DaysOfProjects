@@ -1,0 +1,20 @@
+main .container__section-top {
+    width: 60%;
+}
+
+main .container__section-right {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30rem;
+}
+
+main .container__section-right .container__section-thank {
+    width: 80%;
+}
+
+main .container__section-right .container__div-btn {
+    width: 80%;
+}
